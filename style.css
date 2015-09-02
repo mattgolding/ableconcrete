@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin:0;
+}
+
+#header { 
+    /*position: fixed;*/
+    /*top: 0;*/
+    height: 100px; 
+    width: 100%;
+    background-color: red; 
+}
+
+#content {
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    width: 100%; 
+    /*background-color: blue;
+    overflow: auto;*/
+}
+
+#footer {
+    position : absolute;
+    bottom : 0;
+    height : 100px;
+    width: 100%;
+    background-color: green;
+}
+
+#leftbar {
+    background-color: blue;
+    position: absolute;
+    /*width: 350px;*/
+    height: 100%;
+    overflow:auto;
+
+    margin-right: 100px;
+    width: 100%;
+}
+
+#rightbar{
+    background-color:orange;
+    /*padding-left:350px;*/
+    height:100%;
+    overflow: auto;
+    
+    position: absolute;
+    width: 100px;
+    right: 0;
+}
